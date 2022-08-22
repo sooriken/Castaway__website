@@ -1,0 +1,424 @@
+@media (max-width: 1280px) {
+    html {
+        font-size: 11px;
+    }
+    /* review block */
+    .review__comment {
+        font-size: 2.5rem;
+    }
+    /* episode block */
+    .episode-content__number {
+        margin-top: 2rem;
+    }
+    .episode-content__description {
+        margin-top: 2rem;
+    }
+    /* footer block */
+    .footer-links__item {
+        min-width: 160px;
+        max-width: 160px;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 10px;
+    }
+    /* review block */
+    .review__comment {
+        font-size: 2.5rem;
+    }
+    /* footer block */
+    .footer-links__item {
+        min-width: 140px;
+        max-width: 140px;
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 9px;
+    }
+    .textform {
+        padding: 21px 15px;
+    }
+    /* episode block */
+    .episode-content__advice {
+        margin-top: 1rem;
+        font-size: 4.5rem;
+    }
+    .episode-content__description {
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+    }
+    /* review block */
+    .review__comment {
+        font-size: 2.5rem;
+    }
+    /* footer block */
+    .footer-links__item {
+        min-width: 125px;
+        max-width: 125px;
+    }
+}
+
+@media (max-width: 960px) {
+    html {
+        font-size: 8px;
+    }
+    .textform {
+        padding: 14px 10px;
+    }
+    .button {}
+    .container {
+        margin: 0 40px;
+    }
+    .media__inner {
+        margin-top: 8px;
+    }
+    .media__link-icon {
+        width: 24px;
+        height: 24px;
+    }
+    /* header block */
+    .header {
+        padding: 20px 0;
+    }
+    /* episode block */
+    .episodes-header {
+        margin-top: 40px;
+    }
+    .episode__inner {
+        margin-top: 30px;
+    }
+    /* subscribe block*/
+    .subscribe-inner {
+        margin-top: 100px;
+    }
+    /* staff block */
+    .staff-inner {
+        margin-top: 100px;
+    }
+    /* review block */
+    .review-inner {
+        margin-top: 100px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* footer block */
+    .footer-inner {
+        margin-top: 60px;
+        padding: 40px 0;
+    }
+    .footer-contact__logo {
+        font-size: 3.5rem;
+    }
+    .footer-links__item {
+        min-width: 90px;
+        max-width: 90px;
+        margin-right: 20px;
+    }
+    .footer-inner > .media__inner .media__link {
+        margin-right: 10px;
+    }
+    .footer-inner > .media__inner .media__link-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 6.4px;
+    }
+}
+
+@media (max-width: 560px) {
+    html {
+        font-size: 4.6px;
+    }
+    .button {
+        padding: 6px 10px;
+    }
+    /* episode block */
+    .episode__inner {
+        padding: 20px;
+    }
+    .episode__image {
+        width: calc(35% - 10px);
+        margin-right: 10px;
+    }
+    .episode-content__inner {
+        width: calc(65% - 10px);
+        margin-left: 10px;
+    }
+    .episode-content__advice {
+        font-size: 3.6rem;
+    }
+    .episode-content__description {
+        font-size: 1.3rem;
+    }
+    /* review block */
+    .review-inner {
+        margin-top: 100px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        position: relative;
+    }
+    .review-rate__dots-inner {
+        display: block;
+    }
+    .review-media__click-icon {
+        display: block;
+    }
+    /* staff block */
+    .staff__description {
+        margin-top: 15px;
+    }
+    /* subscribe block */
+    .subscribe-inner {
+        padding: 30px;
+    }
+    /* footer block */
+    .footer-links__item {
+        min-width: 65px;
+        max-width: 65px;
+    }
+}
+
+@media (max-width: 560px) {
+    html {
+        font-size: 4px;
+    }
+    .media__link {
+        margin-right: 8px;
+    }
+    .media__link-icon {
+        width: 16px;
+        height: 16px;
+    }
+    /* header block */
+    .header {
+        line-height: 16px;
+        padding: 15px 0;
+    }
+    /* welcome block */
+    .welcome-content__icons {
+        margin-top: 45px;
+    }
+    /* episodes block */
+    .episodes-header {
+        margin-top: 20px;
+    }
+    .episode__inner {
+        margin-top: 15px;
+    }
+    /* staff block */
+    .staff-inner {
+        margin-top: 60px;
+    }
+    /* subscribe block */
+    .subscribe-inner {
+        margin-top: 60px;
+    }
+    /* review block */
+    .review-inner {
+        margin-top: 60px;
+    }
+    /* footer block */
+    .footer-inner > .media__inner .media__link-icon {
+        width: 12px;
+        height: 12px;
+    }
+    .footer-inner > .media__inner .media__link {
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 3.5px;
+    }
+    .media__link {
+        margin-right: 8px;
+    }
+    .media__link-icon {
+        width: 16px;
+        height: 16px;
+    }
+    /* episode block */
+    .episode-content__inner > .button__inner > .button {
+        margin-top: 8px;
+    }
+    /* subscribe block */
+    .subscribe__title {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 420px) {
+    html {
+        font-size: 3px;
+    }
+    .media__link {
+        margin-right: 8px;
+    }
+    .media__link-icon {
+        width: 16px;
+        height: 16px;
+    }
+    /* episode block */
+    .episode-content__inner > .button__inner > .button {
+        margin-top: 8px;
+    }
+    /* subscribe block */
+    .subscribe__title {
+        font-size: 5rem;
+    }
+    /* footer block */
+    .footer-inner > .media__inner .media__link-icon {
+        width: 10px;
+        height: 10px;
+    }
+    .footer-inner > .media__inner .media__link {
+        margin-right: 5px;
+    }
+    /* footer block */
+    .footer-links__item {
+        min-width: 30px;
+        max-width: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    html {
+        font-size: 2.5px;
+    }
+    .textform {
+        margin-top: 10px;
+        padding: 7px 5px;
+        border-radius: 3px;
+    }
+    .button {
+        margin-top: 8px;
+    }
+    .media__link {
+        margin-right: 6px;
+    }
+    .media__link-icon {
+        width: 12px;
+        height: 12px;
+    }
+    /* header block */
+    .header__nav {
+        margin-left: 20px;
+    }
+    /* episode block */
+    .episodes-header {
+        margin-top: 15px;
+    }
+    .episodes-header__title {
+        margin-top: 8px;
+    }
+    .episode__inner {
+        margin-top: 10px;
+        border-radius: 16px;
+    }
+    /* staff block */
+    .staff-inner {
+        margin-top: 30px;
+    }
+    .staff__description {
+        margin-top: 8px;
+        font-size: 1.5rem;
+    }
+    /* subscribe block */
+    .subscribe-inner {
+        padding: 20px;
+        border-radius: 16px;
+        margin-top: 30px;
+    }
+    /* review block */
+    .review-inner {
+        margin-top: 30px;
+    }
+    .review__item {
+        padding: 30px;
+        border-radius: 16px;
+    }
+    /* footer block */
+    .footer-inner {
+        margin-top: 30px;
+    }
+    .footer-links__item {
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 2.25px;
+    }
+    .media__link {
+        margin-right: 5px;
+    }
+    .media__link-icon {
+        width: 10px;
+        height: 10px;
+    }
+    /* welcome block */
+    .welcome-content__title {
+        font-size: 4rem;
+    }
+    .welcome-content__icons {
+        margin-top: 15px;
+    }
+    /* footer block */
+    .footer-inner > .media__inner .media__link-icon {
+        width: 8px;
+        height: 8px;
+    }
+    .footer-inner > .media__inner .media__link {
+        margin-right: 4px;
+    }
+    .footer-links__item {
+        min-width: 30px;
+        max-width: 30px;
+    }
+}
+
+@media (max-width: 280px) {
+    html {
+        font-size: 2px;
+    }
+    .media__link {
+        margin-right: 3px;
+    }
+    .media__link-icon {
+        width: 6px;
+        height: 6px;
+    }
+    /* footer block */
+    .footer-inner > .media__inner .media__link-icon {
+        width: 6px;
+        height: 6px;
+    }
+    .footer-inner > .media__inner .media__link {
+        margin-right: 3px;
+    }
+    .footer__contact-inner {
+        margin-right: 5px;
+    }
+    .footer__links-inner {
+        margin: 0 5px;
+    }
+    .footer-inner > .media__inner {
+        margin-left: 5px;
+    }
+    .footer-links__item {
+        min-width: 25px;
+        max-width: 25px;
+    }
+}
